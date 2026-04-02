@@ -1,6 +1,6 @@
 # Sistema de Gestión de Pedidos Web
 
-Esta actividad consiste en el desarrollo de un sistema de gestión de pedidos implementado como aplicación web utilizando HTML, CSS y JavaScript.
+Esta actividad consiste en el desarrollo de un sistema de gestión de pedidos implementado como aplicación web utilizando HTML, CSS y JavaScript, modo simulación.
 
 ## Objetivo
 
