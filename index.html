@@ -10,6 +10,22 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+
+  <div id="fake-login" style="position: fixed; inset: 0; background: rgba(245, 247, 255, 0.98); z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center; backdrop-filter: blur(5px);">
+    <div style="background: #6366f1; padding: 20px; border-radius: 50%; margin-bottom: 20px;">
+      <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+    </div>
+    <h1 style="color: #1e1e2f; margin-bottom: 10px; font-family: 'Outfit', sans-serif;">¡Bienvenido al Sistema!</h1>
+    <p style="margin-bottom: 40px; font-size: 1.2rem; color: #666; font-family: 'Outfit', sans-serif;">Selecciona tu rol para ingresar</p>
+    <div style="display: flex; gap: 20px;">
+      <button id="btn-login-admin" style="padding: 15px 30px; font-size: 1rem; cursor: pointer; background: #6366f1; color: white; border: none; border-radius: 12px; font-weight: 600; box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);">
+        👨‍💻 Administrador
+      </button>
+      <button id="btn-login-cliente" style="padding: 15px 30px; font-size: 1rem; cursor: pointer; background: white; color: #6366f1; border: 2px solid #6366f1; border-radius: 12px; font-weight: 600;">
+        👤 Cliente
+      </button>
+    </div>
+  </div>
   <div id="app">
     <header>
       <div class="logo">
